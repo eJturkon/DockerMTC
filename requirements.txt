@@ -1,0 +1,9 @@
+arcgis
+jupyter
+ipykernel
+geopandas
+boto3
+psycopg2
+mapclassify
+folium
+branca
