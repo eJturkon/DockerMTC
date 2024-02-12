@@ -39,7 +39,7 @@ Once built you should see an output with “To access the server, open this file
 
 Restart VS Code and open the .ipynb file of your choice. Click the Select Kernel button, or from the command palate “Notebook: Select Notebook Kernel”
 
-![Select Kernel](/images/p0.png){ width: 100px; }
+![Select Kernel](/images/p0.png =100x)
 
 Choose “Existing Jupyter Server”. Paste the URL saved from above and hit enter twice.
 
