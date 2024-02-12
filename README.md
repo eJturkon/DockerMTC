@@ -15,9 +15,9 @@ For context let’s run through getting the image from my example up and running
 **Following anywhere there is formatting with <some_text>, this represents a part of the example where you should replace this for your specific use case.**
 
 #### Dependencies for Image Usage in VS Code:
--	VS Code
--	Python 3.7 or newer
--	Docker Desktop (ensure its up to date)
+-	[VS Code](https://code.visualstudio.com/)
+-	Python 3.7 (or newer)
+-	[Docker Desktop](https://www.docker.com/products/docker-desktop/) (up to date)
 
 Ensure you are in the correct working directory and pull the Docker image.
 
