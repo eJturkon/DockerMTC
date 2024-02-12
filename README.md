@@ -31,7 +31,7 @@ Ensure Docker cli recognizes the image. If you see the name of your image you ar
 
 Build the container. This line assumes all of your ports are still in the default config, port 8888 is the default.
 
-`$ docker run -p 8888:8888 --name <geo_container> <ejturkon/mtc_geo_image>!`
+`$ docker run -p 8888:8888 --name <geo_container> <ejturkon/mtc_geo_image>`
 
 Once built you should see an output with “To access the server, open this file in a browser:” and it should then include 3 URLs after. Copy and store the last URL that looks most like the one seen below.
 
