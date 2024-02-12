@@ -44,6 +44,7 @@ Restart VS Code and open the .ipynb file of your choice. Click the Select Kernel
 Choose “Existing Jupyter Server”. Paste the URL saved from above and hit enter twice.
 
 ![Existing Jupyter Server](/images/p1.png width=200)
+<img src="/images/p1.png sr" width="100">
 
 Click Python 3 (ipykernel) and you should be good to go!
 
