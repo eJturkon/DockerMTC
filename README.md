@@ -17,4 +17,17 @@ Many pre-configured Docker images are available on [Docker Hub](https://hub.dock
 
 **Pull the Docker Image:**
 
-*   `$ docker pull <image_name>`
+`$ docker pull <image_name>`
+
+**Verify the Image:**
+
+`$ docker images`
+
+**Build the Container:**
+
+`$ docker run -p 8888:8888 --name <container_name> <image_name>`
+
+**Access the Server:**
+
+`http://127.0.0.1:8888/lab?token=<token>`
+
