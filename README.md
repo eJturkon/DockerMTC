@@ -47,3 +47,4 @@ Choose “Existing Jupyter Server”. Paste the URL saved from above and hit ent
 
 Click Python 3 (ipykernel) and you should be good to go!
 
+Note, further documentation for MTC dvutils use case and image and container creation is located in the documentation file.
