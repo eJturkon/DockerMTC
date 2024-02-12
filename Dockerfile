@@ -28,7 +28,7 @@ COPY . /usr/src/app
 # Set wd into container
 WORKDIR /usr/src/app
 
-# Install de
+# Install requirements
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
