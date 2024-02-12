@@ -12,7 +12,7 @@ Many pre-configured docker images are available on [Docker Hub](https://hub.dock
 
 For context let’s run through getting the image from my example up and running in a notebook in VS Code.
 
-**Following anywhere there is formatting with <some_text>, this represents a part of the example where you should replace this for your specific use case.**
+**Following anywhere there is formatting with <some_text>, this represents a part of the example where you should replace this for your specific use case. You will need to remove the "<>" to run the code**
 
 #### Dependencies for Image Usage in VS Code:
 -	[VS Code](https://code.visualstudio.com/)
@@ -23,7 +23,7 @@ Ensure you are in the correct working directory and pull the Docker image.
 
 Pull the Docker image.
 
-`$ docker pull <image_name>`
+`$ docker pull <ejturkon/mtc_geo_image>`
 
 Ensure Docker cli recognizes the image. If you see the name of your image you are all set, i.e”ejturkon/mtc_geo_image”.
 
@@ -31,7 +31,7 @@ Ensure Docker cli recognizes the image. If you see the name of your image you ar
 
 Build the container. This line assumes all of your ports are still in the default config, port 8888 is the default.
 
-`$ docker run -p 8888:8888 --name <container_name> <image_name>`
+`$ docker run -p 8888:8888 --name <geo_container> <ejturkon/mtc_geo_image>!`
 
 Once built you should see an output with “To access the server, open this file in a browser:” and it should then include 3 URLs after. Copy and store the last URL that looks most like the one seen below.
 
