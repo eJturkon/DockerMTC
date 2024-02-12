@@ -35,11 +35,11 @@ Build the container. This line assumes all of your ports are still in the defaul
 
 Once built you should see an output with “To access the server, open this file in a browser:” and it should then include 3 URLs after. Copy and store the last URL that looks most like the one seen below.
 
-`http://127.0.0.1:8888/lab?token=<token>` { width: 100px; }
+`http://127.0.0.1:8888/lab?token=<token>`
 
 Restart VS Code and open the .ipynb file of your choice. Click the Select Kernel button, or from the command palate “Notebook: Select Notebook Kernel”
 
-![Select Kernel](/images/p0.png) { width: 200px; }
+![Select Kernel](/images/p0.png){ width: 100px; }
 
 Choose “Existing Jupyter Server”. Paste the URL saved from above and hit enter twice.
 
