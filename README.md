@@ -7,7 +7,8 @@ Creating and using Docker containers with specific use cases for [MTC](https://m
 Creating and Using Docker Dev-Containers for Python Jupyter Notebooks in VS Code
 ================================================================================
 
-Docker containers are useful for ensuring code runs as intended, especially for configurations where certain modules are not available.
+Docker containers provide a great way to eliminate dependencies on the hosts software configuration. This ensures all your code runs the intended way and adds great value in giving ability to run programs that would otherwise not be configured for your devise. ![image](https://github.com/eJturkon/DockerMTC/assets/121120285/e2f0f6a2-9a7b-4cbf-b613-a7769b1690c4)
+
 
 ### Running a Pre-Configured Image
 
