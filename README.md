@@ -27,15 +27,19 @@ For context let’s run through getting the image from my example up and running
 Ensure you are in the correct working directory and pull the Docker image.
 
 Pull the Docker image.
+
 `$ docker pull <image_name>`
 
 Ensure Docker cli recognizes the image. If you see the name of your image you are all set, i.e”ejturkon/mtc_geo_image”.
+
 `$ docker images`
 
 Build the container. This line assumes all of your ports are still in the default config, port 8888 is the default.
+
 `$ docker run -p 8888:8888 --name <container_name> <image_name>`
 
 Once built you should see an output with “To access the server, open this file in a browser:” and it should then include 3 URLs after. Copy and store the last URL that looks most like the one seen below.
+
 `http://127.0.0.1:8888/lab?token=<token>`
 
 Restart VS Code and open the .ipynb file of your choice. Click the Select Kernel button, or from the command palate “Notebook: Select Notebook Kernel”
